@@ -1,0 +1,106 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #e6e6e6;
+    color: #111;
+}
+
+/* Main Container */
+.MotorInformations {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Section */
+.M_Header {
+    background-color: #8fb3c9; /* light blue like image */
+    padding: 20px 40px;
+    text-align: left;
+}
+
+.M_Header h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+/* Navigation */
+.MotorNavigations {
+    position: absolute;
+    top: 35px;
+    right: 40px;
+}
+
+.MotorNavigations a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.MotorNavigations a:hover {
+    color: #ffffff;
+}
+
+/* Main Content Section */
+.Giorno_S {
+    background-color: #dcdcdc;
+    width: 80%;
+    margin: 60px auto 30px auto;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Giorno_S img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.Giorno_S h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.Giorno_S ul {
+    list-style-type: none;
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.Giorno_S ul li {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+/* Price Section */
+.Giorno_P {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Giorno_P h3 {
+    font-size: 28px;
+    background-color: #8fb3c9;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+/* Footer Style (like image bottom bar) */
+footer {
+    background-color: #8fb3c9;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}

@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.WebInformations {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Logo,
+.Header,
+.WebNavigations {
+    position: absolute;
+    top: 5px;
+}
+
+.Logo img {
+    width: 80px;
+    margin-left: 60px;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #9bb7c7;
+    z-index: -1;
+}
+
+.Header {
+    left: 170px;
+    top: 20px;
+}
+
+.Header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.WebNavigations {
+    right: 75px;
+    top: 35px;
+}
+
+.WebNavigations a {
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.WebNavigations a:hover {
+    text-decoration: underline;
+}
+
+.Welcome {
+    text-align: center;
+    margin-top: 180px;
+}
+
+.Welcome h1 {
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.Welcome p {
+    font-size: 22px;
+    color: #444;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Specs,
+.Pricing,
+.Scooters {
+    text-align: center;
+    position: absolute;
+    top: 420px;
+    margin-top: 300px;
+}
+
+.Specs {
+    left: 20%;
+}
+
+.Pricing {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Scooters {
+    right: 20%;
+}
+
+.Specs img,
+.Pricing img,
+.Scooters img {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.Specs h3,
+.Pricing h3,
+.Scooters h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.Footer {
+    margin-top: auto;
+    background-color: #9bb7c7;
+    text-align: center;
+    padding: 15px 0;
+}
+
+body{
+    background-color: #e6e6e6;
+}
+
+

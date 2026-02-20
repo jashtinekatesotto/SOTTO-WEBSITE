@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.LogINInformations{
+    min-height: 100vh;
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+}
+
+.L_Logo{
+    background-color: #98b6c7;
+    padding: 15px 20px;
+}
+
+.L_Logo img{
+    width: 70px;
+    margin-left: 134px;
+}
+
+.L_Header{
+    position: absolute;
+    top: 35px;
+    left: 250px;
+}
+
+.L_Header h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.LogNavigations{
+    position: absolute;
+    right: 110px;
+    top: 40px;
+}
+
+.LogNavigations a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.LogNavigations a:hover{
+    text-decoration: underline;
+}
+
+.Log_In{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Log_In h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#P_LogIn{
+    background-color: white;
+    width: 350px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field{
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.input-field:focus{
+    border-color: #98b6c7;
+    outline: none;
+}
+
+#submit{
+    padding: 12px;
+    background-color: #98b6c7;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#submit:hover{
+    background-color: #7ea5b8;
+    color: white;
+}
+
+.L_Footer{
+    margin-top: auto;
+    background-color: #98b6c7;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}

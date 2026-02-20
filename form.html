@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="icon" href="images/icon.png">
+    <title>SOTTO WEB SYSTEM</title>
+</head>
+<body>
+<div class="FormInformations">
+    
+    <div class="F_Header">
+        <h1>MOTORCYCLE APEX</h1>
+    </div>
+        
+        <div class="F_Logo">
+            <img src="images/icon.png" alt="">
+        </div>
+            
+            <div class="FormNavigations">
+                <a href="home.html"> Home </a>
+                <a href="bikes.html"> Bikes </a>
+                <a href="form.html"> Form </a>
+                <a href="login.html"> Log In </a>
+            </div>
+                
+                <div class="Form_Content">
+                    <div class="Contents">
+
+                        <h2> Enter User Information</h2>
+
+                        <div class="U_Input">
+                            <input type="text" id="FName" placeholder=" First Name:  ">
+                            <input type="text" id="MName" placeholder=" Middle Name:  ">
+                            <input type="text" id="SName" placeholder=" Surname:  ">
+                            <input type="text" id="Age" placeholder=" Age:  ">
+                            <input type="text" id="Email" placeholder=" Email:  ">
+                            <button onclick="save()" id="SaveButton"> Save </button>
+                        </div>
+                </div>
+                    <div class="UserContainer">
+                        <h2>User Data</h2>
+
+                        <table id="User_Data">
+                            <thead>
+                                <tr>
+                                    <th>First Name</th>
+                                    <th>Middle Name</th>
+                                    <th>Surname</th>
+                                    <th>Age</th>
+                                    <th>Email</th>
+                                </tr>
+                            </thead>
+                            <tbody id="Table"></tbody>
+                        </table>
+                    </div>
+
+                        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+                        <script src="form.js"></script>
+</body>
+</body>
+</html>
